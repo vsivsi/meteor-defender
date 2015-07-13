@@ -71,13 +71,13 @@ since the package loaded. If `fatal` is omitted or `false` then this call will l
 detects to the browser and/or server console:
 
 ```
-W20150713-16:09:47.019(-7)? (STDERR) ###############################################################
-W20150713-16:09:47.019(-7)? (STDERR) ## WARNING from vsivsi:defender package:
-W20150713-16:09:47.019(-7)? (STDERR) ## Meteor function: Mongo.Collection has been modified!
-W20150713-16:09:47.019(-7)? (STDERR) ###############################################################
+(STDERR) ###############################################################
+(STDERR) ## WARNING from vsivsi:defender package:
+(STDERR) ## Meteor function: Mongo.Collection has been modified!
+(STDERR) ###############################################################
 ```
 
 That's all for now. I'm very open to suggestions and contributions. This is very prototype and nothing is  
-fixed, so I don't recommend deploying it in your production app just yet (!), but I hope you find it
+set in stone, so I don't recommend deploying it in your production app just yet (!), but I hope you find it 
 useful in your test and debug workflow to restore some sanity to the "Wild West" environment of
 Meteor packages.
