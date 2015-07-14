@@ -6,7 +6,8 @@ global functions such as `Mongo.Collection` or `Meteor.publish`.
 #### Why?
 
 Because I've wasted [too much time](https://github.com/vsivsi/meteor-job-collection/issues/58#issuecomment-72272402) debugging [problems caused](https://github.com/vsivsi/meteor-file-sample-app/issues/2#issuecomment-120780592) by packages
-that (**surprise!**) monkey-patch and shadow the standard Meteor APIs.
+that (**surprise!**) monkey-patch and shadow the standard Meteor APIs.  I wrote this
+package to shine a bright light on this issue.
 
 I'm going to be unabashedly opinionated and just say that packages that do this are EVIL.
 
@@ -66,7 +67,7 @@ vsivsi:file-collection
 
 Once you have done this, you can then check at any point in your application what the status
 of the Meteor API is. Right now this is implemented as a single global object `Defender` with a single
-function call `.check`.
+function call:
 
 `Defender.check([fatal]);`
 
