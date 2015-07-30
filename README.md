@@ -12,7 +12,7 @@ package to shine a bright light on this issue.
 I'm going to be unabashedly opinionated and just say that packages that do this are EVIL.
 
 It is a terrible programming practice in one's own code, and a ***Very Bad Thing***
-to silently do to some else's application. I'm not going to name names, but if you use
+to silently do to someone else's application. I'm not going to name names, but if you use
 this package, you may find out soon enough which packages I'm talking about.
 
 As a package developer myself, this practice makes the system difficult to reason about,
